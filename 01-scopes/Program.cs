@@ -18,6 +18,7 @@ while (!int.TryParse(userInput, out parsedInput))
 //--------------------------------
 
 
+
 //Start of second scope
 {
 Console.WriteLine("Give me a another number");
@@ -25,14 +26,13 @@ int userInput = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(++userInput);
 }
 
+
 //End of second scope
 //--------------------------------
 
 
 
-
-
-//Start of thrid scope
+//Start of third scope
 {
     
     Console.WriteLine("Give me a another number");
